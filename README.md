@@ -82,7 +82,13 @@ You can also start the cloner directly in your browser using [CodeSandbox](https
 
 Feel free to contribute, report issues, or leave feedback. Your support is greatly appreciated!
 
-[![Star History Chart](https://api.star-history.com/svg?repos=infinite-contributors/Discord-Server-Cloner-2-FIX,joaokristani/Discord-Server-Cloner-2x&type=Date)](https://star-history.com/#infinite-contributors/Discord-Server-Cloner-2-FIX&joaokristani/Discord-Server-Cloner-2x&Date)
+<a href="https://star-history.com/#infinite-contributors/Discord-Server-Cloner-2-FIX&joaokristani/Discord-Server-Cloner-2x&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=infinite-contributors/Discord-Server-Cloner-2-FIX,joaokristani/Discord-Server-Cloner-2x&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=infinite-contributors/Discord-Server-Cloner-2-FIX,joaokristani/Discord-Server-Cloner-2x&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=infinite-contributors/Discord-Server-Cloner-2-FIX,joaokristani/Discord-Server-Cloner-2x&type=Date" />
+ </picture>
+</a>
 
 Credits for updated markdown and translations: GPT
 
