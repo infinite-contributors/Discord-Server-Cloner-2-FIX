@@ -14,8 +14,7 @@ Discord Server Cloner 2x is designed to simplify the process of setting up your 
 
 - Clone channels, roles, and settings from an existing server
 - Easy-to-use interface
-- Supports various package managers
-
+  
 ## Prerequisites
 
 Ensure you have one of the following package managers installed:
@@ -82,5 +81,5 @@ You can also start the cloner directly in your browser using [CodeSandbox](https
 ### Thank you for your support!
 
 Feel free to contribute, report issues, or leave feedback. Your support is greatly appreciated!
-
+Credits for updated markdown and translations: GPT
 ---
