@@ -5,34 +5,82 @@
 ---
 
 ## Overview
-This project was made to make your life easier, instead of spending hours trying to make your server as beautiful as possible you can simply clone a server with this tool
+
+Discord Server Cloner 2x is designed to simplify the process of setting up your Discord server. Instead of spending hours customizing your server, you can quickly clone an existing server using this tool, saving you time and effort.
 
 **More information:** [Cloner Website](https://cloner-one.vercel.app/)
 
-## How to use
-```typescript
+## Features
+
+- Clone channels, roles, and settings from an existing server
+- Easy-to-use interface
+- Supports various package managers
+
+## Prerequisites
+
+Ensure you have one of the following package managers installed:
+
+- [pnpm](https://pnpm.io/)
+- [npm](https://www.npmjs.com/)
+- [yarn](https://yarnpkg.com/)
+
+## Installation
+
+Choose your preferred package manager and install the necessary dependencies:
+
+### Using pnpm
+```sh
 $ pnpm i
-# or
+```
+
+### Using npm
+```sh
 $ npm i
-# or
+```
+
+### Using yarn
+```sh
 $ yarn
 ```
-**Examples with tsx**
-```typescript
+
+## Usage
+
+To use the cloner with TypeScript Execution (tsx), install `tsx` globally and run the tool:
+
+### Install tsx globally
+
+#### Using pnpm
+```sh
 $ pnpm i -g tsx
-# or
+```
+
+#### Using npm
+```sh
 $ npm i -g tsx
 ```
 
-```typescript
+#### Using yarn
+```sh
+$ yarn global add tsx
+```
+
+### Run the cloner
+```sh
 $ tsx .
 ```
-**You can also use [codesandbox](https://codesandbox.io/dashboard/recent) to start the cloner**
 
-----
+### Alternatively, use CodeSandbox
 
-![image](https://github.com/joaokristani/Discord-Server-Cloner-2x/assets/136858930/f387f534-88c6-4e1f-8cc1-2d9cdd28d3ca)
+You can also start the cloner directly in your browser using [CodeSandbox](https://codesandbox.io/dashboard/recent).
 
+## Screenshot
 
+![Discord Server Cloner 2x Screenshot](https://github.com/joaokristani/Discord-Server-Cloner-2x/assets/136858930/f387f534-88c6-4e1f-8cc1-2d9cdd28d3ca)
+
+---
 
 ### Thank you for your support!
+
+Feel free to contribute, report issues, or leave feedback. Your support is greatly appreciated!
+
+---
