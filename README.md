@@ -15,7 +15,7 @@ $ pnpm i
 # or
 $ npm i
 # or
-$ yarn add
+$ yarn
 ```
 **Examples with tsx**
 ```typescript
