@@ -81,5 +81,7 @@ You can also start the cloner directly in your browser using [CodeSandbox](https
 ### Thank you for your support!
 
 Feel free to contribute, report issues, or leave feedback. Your support is greatly appreciated!
+
 Credits for updated markdown and translations: GPT
+
 ---
