@@ -106,26 +106,26 @@ export function infouser(client: Client) {
   console.log(
     gradient(["#ff4500", "#ffa500", "#ff6347"])(
       t(
-        `Nome da conta: ${client.user.username}\nNome global da conta: ${
+        `Account name: ${client.user.username}\nGlobal account name: ${
           client.user.globalName
-        }\nAvatar ${client.user.avatarURL({
+        }\nAvatar: ${client.user.avatarURL({
           format: "png",
           dynamic: true,
           size: 1024,
         })}\nBanner: ${client.user.bannerURL({
           format: "png",
           dynamic: true,
-        })}\nID: ${client.user.id}\nData de criação da conta: ${
+        })}\nID: ${client.user.id}\nAccount creation date: ${
           client.user.createdAt
-        }\nGuildas: ${client.guilds.cache.size} \nNitro?: ${
+        }\nGuilds: ${client.guilds.cache.size} \nNitro?: ${
           client.user.nitroType
-        }\nEmail: ${client.user.emailAddress}\nCelular: ${
+        }\nEmail: ${client.user.emailAddress}\nPhone: ${
           client.user.phoneNumber
-        }\nIdioma: ${client.settings.locale}\nTema: ${
+        }\nLanguage: ${client.settings.locale}\nTheme: ${
           client.settings.theme
-        }\nModo desenvolvedor: ${client.settings.developerMode}\nAfk Timeout: ${
+        }\nDeveloper mode: ${client.settings.developerMode}\nAfk Timeout: ${
           client.settings.afkTimeout
-        }\nDM Scan Level: ${client.settings.DMScanLevel}\nModo compacto: ${
+        }\nDM Scan Level: ${client.settings.DMScanLevel}\nCompact mode: ${
           client.settings.compactMode
         }\nPreview Link: ${client.settings.previewLink}`
       )
