@@ -2,8 +2,9 @@ import Discord, { TextChannel } from "discord.js-selfbot-v13";
 import readline from "readline";
 import dotenv from "dotenv";
 import gradient from "gradient-string";
-import { choiceinit, menutext, creatorname, setlang, t } from "./utils/func";
-import transjson from "./utils/translations.json";
+import { choiceinit, menutext, creatorname } from "./utils/func";
+import { setlang, t } from "./utils/translations/translations";
+
 dotenv.config();
 
 export const client = new Discord.Client({
@@ -125,8 +126,4 @@ if (!token) {
   });
 }
 
-export type Translations = {
-  en: { [key: string]: string };
-  pt: { [key: string]: string };
-};
-export const translations: Partial<Translations> = transjson;
+

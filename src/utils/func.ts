@@ -1,8 +1,9 @@
 import gradient from "gradient-string";
 import backup from "../src/index";
 import boxen from "boxen";
-import { rl, translations } from "../index";
+import { rl } from "../index";
 import chalk from "chalk";
+import { t, langat, setlang } from "./translations/translations";
 import { Client } from "discord.js-selfbot-v13";
 export function choiceinit(client: Client) {
   let clearall = () => {
@@ -20,14 +21,13 @@ export function choiceinit(client: Client) {
           clearall();
           break;
         case "1":
-        case "3":
           creatorname();
           await client.guilds.fetch();
           configop(client, "Clonerop2choice");
           break;
         case "3":
         case "2":
-          console.log(gradient(["red", "purple"])(t("disabled")));
+          console.log(gradient(["red", "white"])(t("disabled")));
           awaitenter(client);
           break;
         case "6":
@@ -49,7 +49,14 @@ export function choiceinit(client: Client) {
           break;
         case "8":
           creatorname();
-          changelang(client);
+          if (langat === "pt") {
+            setlang("en");
+          } else {
+            setlang("pt");
+          }
+          creatorname();
+          menutext(client);
+          choiceinit(client);
           break;
         default:
           clearall();
@@ -58,15 +65,6 @@ export function choiceinit(client: Client) {
   );
 }
 
-let langat: "pt" | "en" = "pt";
-
-export function setlang(lang: "en" | "pt") {
-  langat = lang;
-}
-
-export function t(key: string): string {
-  return translations[langat][key] || key;
-}
 export function creatorname() {
   console.clear();
   console.log(
@@ -602,16 +600,4 @@ function awaitenter(client: Client) {
     menutext(client);
     choiceinit(client);
   });
-}
-function changelang(client: Client) {
-  if (langat === "pt") {
-    setlang("en");
-    langat = "en";
-  } else {
-    setlang("pt");
-    langat = "pt";
-  }
-  creatorname();
-  menutext(client);
-  choiceinit(client);
 }

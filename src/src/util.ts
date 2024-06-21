@@ -24,7 +24,8 @@ import type {
     ThreadChannel
 } from 'discord.js-selfbot-v13';
 import nodeFetch from 'node-fetch';
-import { configOptions2, t } from '../utils/func'
+import { configOptions2 } from '../utils/func'
+import { t } from "../utils/translations/translations";
 const MaxBitratePerTier: Record<PremiumTier, number> = {
     NONE: 64000,
     TIER_1: 128000,
