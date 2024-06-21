@@ -20,17 +20,15 @@ export function choiceinit(client: Client) {
           clearall();
           break;
         case "1":
-        case "2":
         case "3":
           creatorname();
           await client.guilds.fetch();
-          const option =
-            choice === "1"
-              ? "Clonerop2choice"
-              : choice === "2"
-              ? "Clonerop2choice"
-              : "Clonerop2choice";
-          configop(client, option);
+          configop(client, "Clonerop2choice");
+          break;
+        case "3":
+        case "2":
+          console.log(gradient(["red", "purple"])(t("disabled")));
+          awaitenter(client);
           break;
         case "6":
           creatorname();

@@ -64,6 +64,7 @@
         "errorcloning": "» Error count during cloning: ",
         "idservererror": "[ERROR] This guild does not exist or you are not in it, try correcting the ID",
         "join": "♟ Join",
+        "disabled": "temporarily disabled",
         "svrlimitt": "[Warn] You have reached your server limit :(\n[Warn] If you think you have not reached your server limit and believe this to be a bug you can report it on our Discord"
       },
       "pt": {
@@ -131,6 +132,7 @@
         "errorcloning": "» Contagem de erros durante a clonagem: ",
         "idservererror": "[ERRO] Essa guilda não existe ou você não está nela, tente corrigir o ID",
         "join": "♟ Entrar",
+        "disabled": "Temporariamente desativado",
         "svrlimitt": "[Warn] Você atingiu seu limite de servidores :(\n[Warn] Caso você ache que você não atingiu o limite de servidores e acredita que isso seja um bug você pode reportar em nosso Discord"
       }
     }
